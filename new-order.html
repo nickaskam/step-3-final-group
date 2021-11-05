@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Morning Dawn - Orders</title>
+    <link rel="stylesheet" href="/~askamn/css/morning-dawn.css">
+  </head>
+  <body>
+    <p><a href="/~askamn/orders.html">< Back</a></p>
+	<h1>New Order</h1>
+    <form>
+      <label for="orderDate">Date:</label><br>
+      <input type="date" id="orderDate" name="orderDate"><br>
+      <label for="orderTotal">Order Price:</label><br>
+      <input type="number" id="orderTotal" name="orderTotal"><br>
+      <label for="coffeeID">Coffee ID:</label><br>
+      <select name="coffee" id="coffeeID">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="null">NULL</option>
+      </select><br>
+      <label for="teaID">Tea ID:</label><br>
+      <select name="tea" id="teaID">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="null">NULL</option>
+      </select><br>
+      <button>Create new order</button>
+    </form>
+  </body>
+</html>
