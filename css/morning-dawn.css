@@ -19,3 +19,9 @@ table {
     margin-right: auto;
     table-layout: fixed;
 }
+
+form {
+    border: 1px solid black;
+    width: 50%;
+    margin: 2%;
+}
